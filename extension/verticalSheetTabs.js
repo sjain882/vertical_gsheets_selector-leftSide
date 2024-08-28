@@ -198,7 +198,7 @@ function createVSheetTag(sheetName){
 
 	var t3 = document.createElement('div');
 	t3.setAttribute('class','vsheet-right');
-	t3.style.paddingLeft = '5px';
+	t3.style.paddingLeft = '0px';
 	//border on right and bottom
 	t3.style.borderWidth = '0 1px 1px 0';
 	t3.style.borderStyle = 'solid';
@@ -277,11 +277,14 @@ function refreshNavLayout(){
 function createSidebar(){
 
 	//var sidebar
+	// sjain edits here for bus pov sheet
 	var vs = document.createElement('div');
 	vs.setAttribute('id','vert-sidebar');
 	vs.style.display = 'none'; //Hidden to start, will go to flex
 	vs.style.position = 'absolute'; //We set position when showing (or other things)
-	vs.style.width = '100px';
+	vs.style.marginRight = '126em';
+	vs.style.marginTop = '-2em';
+	vs.style.width = '95px';
 
 	//var left - we might get rid of this and move it's functionality into
 	//divs
