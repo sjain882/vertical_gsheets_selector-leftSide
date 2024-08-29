@@ -283,7 +283,7 @@ function createSidebar(){
 	vs.style.display = 'none'; //Hidden to start, will go to flex
 	vs.style.position = 'absolute'; //We set position when showing (or other things)
 	vs.style.marginRight = '126em';
-	vs.style.marginTop = '-2em';
+	vs.style.marginTop = '0.5em';
 	vs.style.width = '95px';
 
 	//var left - we might get rid of this and move it's functionality into
