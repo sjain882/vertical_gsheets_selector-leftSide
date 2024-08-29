@@ -1,4 +1,4 @@
-# Vertical GSheets Selector #
+# Vertical GSheets Selector (Left Side) #
 
 This code is currently a work in progres. You can use it to display a sidebar that displays sheet names. When you click on a sheet it should navigate to that sheet.
 
